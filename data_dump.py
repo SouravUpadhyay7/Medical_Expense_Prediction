@@ -6,7 +6,7 @@ import json
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
-uri = "mongodb+srv://souravupadhyaybit_db_user:sourav1234@cluster0.bb3ajn6.mongodb.net/?appName=Cluster0"
+uri = "#"
 
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))
@@ -18,7 +18,7 @@ try:
 except Exception as e:
     print(e)
 
-DATA_FILE_PATH = (r"C:\Users\Sourav\Desktop\ML project\insurance.csv")
+DATA_FILE_PATH = (r"#")
 DATABASE_NAME = "INSURANCE"
 COLLECTION_NAME = "Medical_Expense_Project"
 
